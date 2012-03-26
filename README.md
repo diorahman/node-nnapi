@@ -1,7 +1,7 @@
-NNAPI Nokia Notification API
+NNAPI Nokia Notifications API
 ===
 
-This is a node module for Nokia Notification API, please take a look at test folder for complete usage
+This is a node module for Nokia Notifications API, please take a look at test folder for complete usage
 https://projects.developer.nokia.com/notificationsapi/wiki
 
 Install
@@ -52,7 +52,8 @@ Ping the server
 		done();
 	});
 
-hostType could be sandbox, production or chinaProduction
+'hostType' could be 'sandbox', 'production' or 'chinaProduction'
+
 You can get serviceId and serviceSecret by registering your service by following this walkthrough: https://projects.developer.nokia.com/notificationsapi/wiki/registerservice
 
 Test
