@@ -1,0 +1,45 @@
+{
+    "name": "node-nnapi",
+    "version": "0.0.1",
+    "description": "Nokia Notifications API wrapped as nodejs module, https://projects.developer.nokia.com/notificationsapi/wiki",
+    "keywords": [
+        "nokia",
+        "notifications",
+        "api",
+		"push"
+    ],
+    "maintainers": [
+        {
+            "name": "Dhi Aurrahman",
+            "email": "diorahman@gmail.com",
+            "web": "http://upperfloor.posterous.com"
+        }
+    ],
+    "bugs": {
+        "mail": "diorahman@gmail.com",
+        "url": "http://github.com/diorahman/node-nnapi/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/diorahman/node-nnapi/blob/master/LICENSE.txt"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "http://github.com/diorahman/node-nnapi.git"
+        }
+    ],
+    "dependencies": {
+       "xml2js": "= 0.1.13",
+       "underscore": "= 1.2.3",
+       "should" : "= 0.5.1"
+    },
+    "os": [
+        "linux",
+        "macos"
+    ],
+    "main": "./nnapi.js"
+}
+
