@@ -10,10 +10,10 @@ var nnapi = require('../nnapi');
 var should = require('should');
 
 var version = '1.0';
-var serviceId = 'service.aegis.co.id';
-var serviceSecret = 'crFjCiG8kL7El+/yfi0z4F6D//tPH8SjK/70qWUX+UA=';
-var hostType = 'sandbox'
-var id = 'diovilicious'
+var serviceId = 'serviceId'; // https://projects.developer.nokia.com/notificationsapi/wiki/registerservice
+var serviceSecret = 'serviceSecret';
+var hostType = 'sandbox' // hostType could be: 'sandbox', 'production', 'chinaProduction'
+var id = 'test-id@ovi.com' // a nokia user id from https://account.nokia.com
 
 describe('Write to service', function(){
 	describe('#send(jid)', function(){

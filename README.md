@@ -54,7 +54,9 @@ Ping the server
 
 'hostType' could be 'sandbox', 'production' or 'chinaProduction'
 
-You can get serviceId and serviceSecret by registering your service by following this walkthrough: https://projects.developer.nokia.com/notificationsapi/wiki/registerservice
+You can get the 'serviceId' and 'serviceSecret' by registering your service by following this walkthrough: https://projects.developer.nokia.com/notificationsapi/wiki/registerservice
+
+You also need a test account from https://account.nokia.com
 
 Test
 ---

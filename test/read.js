@@ -6,8 +6,8 @@ var nnapi = require('../nnapi');
 var should = require('should');
 
 var version = '1.0';
-var serviceId = 'service.aegis.co.id';
-var serviceSecret = 'crFjCiG8kL7El+/yfi0z4F6D//tPH8SjK/70qWUX+UA=';
+var serviceId = 'serviceId';
+var serviceSecret = 'serviceSecret'; // https://projects.developer.nokia.com/notificationsapi/wiki/registerservice
 var hostType = 'sandbox'
 
 describe('Read service information', function(){
